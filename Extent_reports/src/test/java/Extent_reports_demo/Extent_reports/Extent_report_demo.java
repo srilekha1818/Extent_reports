@@ -27,6 +27,7 @@ public class Extent_report_demo {
 		ExtentTest test=extent.createTest("initialdemo");
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester","Srilekha");
+		//test.fail("Results do not match");
 		extent.flush();
 		
 		
